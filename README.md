@@ -30,4 +30,4 @@ For the following the theoretical basis is done, only needs to be converted in t
 
 As soon as that's all done make it into a search service.
 
-And as a sample output I included an export from the MySQL table that contains IP addresses and root folder, some root folders might not be present as the crawler hasn't gone by.
+And as a sample output I included an export from the MySQL table in .csv and .xml that contains IP addresses and root folders, some root folders might not be present as the crawler hasn't gone by.
