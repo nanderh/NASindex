@@ -19,7 +19,7 @@ Therefor to stress once again that this is a major vulnerability I hereby presen
 
 This is still a work in progress but where it's at right now is:
 * Moved from SQLite to MySQL, so multiple crawlers can be run and simultanious write operations can be performed.
-* Import Shodan results through the API and exported .xml files.
+* Import Shodan results through the API (single page for now).
 * Fetch headers to confirm if live and an Iomega server.
 * Get root folders of the server.
 
@@ -30,4 +30,4 @@ For the following the theoretical basis is done, only needs to be converted in t
 
 As soon as that's all done make it into a search service.
 
-And as a sample output I included a SQLite database from just before I switched to MySQL, some hosts might not be live anymore.
+And as a sample output I included an export from the MySQL table that contains IP addresses and root folder, some root folders might not be present as the crawler hasn't gone by.
